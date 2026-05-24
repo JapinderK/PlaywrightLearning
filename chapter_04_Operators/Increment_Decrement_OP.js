@@ -25,7 +25,7 @@
 // let a = 5; 
 // console.log(a++ + ++a)   //5 +7 =12
 // console.log(a); //7
-// console.log(--a + a--) //6 + 6
+// console.log(- --a + a--) //0
 // console.log(a); //5
 // console.log(++a); //6
 // console.log(a); //6
