@@ -8,3 +8,4 @@ node --print-bytecode <path/filename.js>
 - **chapter_03_Literals**: Examples of all JavaScript literals in `literal.js` (numeric, string, boolean, null, undefined, object, array, RegExp, BigInt, symbol, function, template, nested). Also includes `Backtick_single_double.js` for a quick comparison of string quote types.
 - **chapter_04_Operators**: JavaScript operators, including `Null_Nullish_OP.js` for nullish coalescing operator examples and `Increment_Decrement_OP.js` for increment/decrement operator examples.
 - **chapter_05_If_Else**: Conditional statements, including `LeapYear.js` for leap year logic examples.
+- **chapter_06_For_loop**: Looping constructs, including `IQ.js` for for, while, and do-while loop examples and edge cases.
