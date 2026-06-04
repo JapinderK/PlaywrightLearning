@@ -9,4 +9,6 @@ node --print-bytecode <path/filename.js>
 - **chapter_04_Operators**: JavaScript operators, including `Null_Nullish_OP.js` for nullish coalescing operator examples and `Increment_Decrement_OP.js` for increment/decrement operator examples.
 - **chapter_05_If_Else**: Conditional statements, including `LeapYear.js` for leap year logic examples.
 - **chapter_06_For_loop**: Looping constructs, including `IQ.js` for for, while, and do-while loop examples and edge cases.
-- **chapter_07_Arrays**: Array methods and operations, including `Transform_array.js` for array transformation examples.
+- **chapter_07_Arrays**: Array methods and operations, including `Transform_array.js` for array transformation examples. Also includes `Array_checking.js` for array validation using `Array.isArray()`, `every()`, and `some()` methods.
+- **chapter_08_Functions**: Function fundamentals including function types, parameters vs arguments, return values, and arrow functions.
+- **Programming_practice**: Practice problems and exercises.
