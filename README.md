@@ -11,4 +11,5 @@ node --print-bytecode <path/filename.js>
 - **chapter_06_For_loop**: Looping constructs, including `IQ.js` for for, while, and do-while loop examples and edge cases.
 - **chapter_07_Arrays**: Array methods and operations, including `Transform_array.js` for array transformation examples. Also includes `Array_checking.js` for array validation using `Array.isArray()`, `every()`, and `some()` methods.
 - **chapter_08_Functions**: Function fundamentals including function types, parameters vs arguments, return values, and arrow functions.
+- **chapter_09_Strings**: String methods and manipulation, including `03_Search_Check.js` for indexOf, lastIndexOf, and search methods, and `Anagram.js` for anagram checking with Sort & Compare method.
 - **Programming_practice**: Practice problems and exercises.

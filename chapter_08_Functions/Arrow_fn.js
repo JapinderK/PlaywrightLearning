@@ -4,7 +4,7 @@ function student(name, age)
 }
 console.log(student("Alice", 26));
 
-const student1 = (name) => `Student name is ${name}`;
+const student1 = (name, age) => `Student name is ${name}`;
 console.log(student1("Alice"));
 
 
@@ -14,3 +14,20 @@ console.log(double(10));
 
 const printIt = n => console.log(n);
 printIt("ALice");
+
+function name(){
+    console.log("Alice");
+}
+
+const name1 = () => {
+    console.log("Alice");
+}
+
+const say = () => `Hi`;
+
+const greet = (name) => {
+    const message = "hello";
+    return message;
+}
+
+console.log(say());
