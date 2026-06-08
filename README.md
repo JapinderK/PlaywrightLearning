@@ -13,3 +13,18 @@ node --print-bytecode <path/filename.js>
 - **chapter_08_Functions**: Function fundamentals including function types, parameters vs arguments, return values, and arrow functions.
 - **chapter_09_Strings**: String methods and manipulation, including `03_Search_Check.js` for indexOf, lastIndexOf, and search methods, and `Anagram.js` for anagram checking with Sort & Compare method.
 - **Programming_practice**: Practice problems and exercises.
+ 
+## About
+
+This repository contains learning examples for JavaScript and Playwright organized by chapter. Each chapter focuses on a particular language topic (strings, arrays, functions, objects, etc.) and includes small example scripts you can run with Node.js.
+
+Getting started:
+
+- Install Node.js (v14+ recommended).
+- Run examples with:
+
+```bash
+node chapter_01_basics/Basics.js
+```
+
+Contributions: feel free to open issues or add examples.
