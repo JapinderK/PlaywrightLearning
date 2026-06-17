@@ -1,0 +1,44 @@
+function openBrowser() {
+    return new Promise(function (resolve) {
+        //code to open the browser
+        resolve("Open browser");
+    })
+}
+function openBrowser() {
+    return new Promise(function (resolve) {
+        //code to open the browser
+        resolve("Open browser");
+    })
+}
+function goToLogin() {
+    return new Promise(function (resolve) {
+        resolve("Login page loaded");
+    })
+}
+function enterCredentials() {
+    return new Promise(function (resolve) {
+        resolve("Credentials entered");
+    })
+}
+
+function clickLogin() {
+    return new Promise(function (resolve) {
+        console.log("Click login done");
+    })
+}
+openBrowser().then(function (msg) {
+    console.log("Step 1: ", msg);
+    return gotToLogin();
+}).then(function (msg) {
+    console.log(("Step 2: Login: ", msg))
+    return enterCredentials();
+}).then(function (msg) {
+    console.log("Step 3 : ", msg);
+    return clickLogin();
+}).then(function (msg) {
+    console.log("Step 4 ", msg);
+}).catch(function (error) {
+    console.log("Error: ", error);
+}).finally(function () {
+    console.log("Done Execution");
+})
