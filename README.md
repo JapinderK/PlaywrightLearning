@@ -3,7 +3,7 @@ node --print-bytecode <path/filename.js>
 
 ## Chapters
 
-- **chapter_13_Promise**: Promise and async examples, including `04_Pyramid_Problem.js` for Promise chaining and control-flow patterns.
+- **chapter_13_Promise**: Promise and async examples, including `04_Pyramid_Problem.js` for Promise chaining and control-flow patterns, `07_Promise_IQ.js` for Promise interview-style problems, and Promise combinators like `05_Promise_All.js` and `06_Promise_AllSettled.js`.
 - **chapter_07_Arrays**: Array methods and operations, including `Transform_array.js` for array transformation examples. Also includes `Array_checking.js` for array validation using `Array.isArray()`, `every()`, and `some()` methods.
 - **chapter_08_Functions**: Function fundamentals including function types, parameters vs arguments, return values, and arrow functions.
 - **chapter_09_Strings**: String methods and manipulation, including `03_Search_Check.js` for indexOf, lastIndexOf, and search methods, and `Anagram.js` for anagram checking with Sort & Compare method.
@@ -51,6 +51,7 @@ node chapter_01_basics/Basics.js
 - `chapter_07_Arrays`: array manipulation, sorting, and common patterns.
 - `chapter_09_Strings`: string operations, palindrome and anagram examples.
 - `chapter_10_Objects`: object usage, spread/rest, and reference vs primitive demos.
+- `chapter_13_Promise`: Promise handling, async flow control, and common Promise utilities.
 
 ## Contributing
 

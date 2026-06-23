@@ -6,3 +6,5 @@ apiCall.then(function (data) {
 }).catch(function (error) {
     console.log(error);
 })
+
+//catch() only runs when the operation is rejected/failed.
