@@ -1,0 +1,15 @@
+{
+  "name": "playwrightlearning",
+  "version": "1.0.0",
+  "description": "How to check bytecode of a program\r node --print-bytecode <path/filename.js>",
+  "main": "index.js",
+  "scripts": {},
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.1"
+  }
+}

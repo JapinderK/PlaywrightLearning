@@ -12,6 +12,7 @@ console.log('decimal:', typeof decimal);
 console.log('floating:', typeof floating);
 console.log('hex:', typeof hex);
 console.log('binary:', typeof binary);
+
 console.log('octal:', typeof octal);
 
 // 2. String Literals
