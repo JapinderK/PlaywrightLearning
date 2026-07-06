@@ -1,32 +1,32 @@
-How to check bytecode of a program
-node --print-bytecode <path/filename.js>
+# PlaywrightLearning
+
+This repository contains beginner-friendly learning examples for JavaScript, TypeScript, and Playwright. The content is organized by chapter and is intended for practice, experimentation, and quick reference while learning modern web automation and programming basics.
+
+## What’s included
+
+- JavaScript fundamentals and core concepts
+- Arrays, strings, functions, objects, and promises
+- TypeScript basics and type annotations
+- Object-oriented programming examples
+- Playwright automation examples and exercises
 
 ## Chapters
 
-- **chapter_13_Promise**: Promise and async examples, including `04_Pyramid_Problem.js` for Promise chaining and control-flow patterns, `07_Promise_IQ.js` for Promise interview-style problems, and Promise combinators like `05_Promise_All.js` and `06_Promise_AllSettled.js`.
-- **chapter_07_Arrays**: Array methods and operations, including `Transform_array.js` for array transformation examples. Also includes `Array_checking.js` for array validation using `Array.isArray()`, `every()`, and `some()` methods.
-- **chapter_08_Functions**: Function fundamentals including function types, parameters vs arguments, return values, and arrow functions.
-- **chapter_09_Strings**: String methods and manipulation, including `03_Search_Check.js` for indexOf, lastIndexOf, and search methods, and `Anagram.js` for anagram checking with Sort & Compare method.
-- **Programming_practice**: Practice problems and exercises.
+- chapter_01_basics: basic JavaScript examples and initial setups
+- chapter_02_Javascript_Concepts: variables, scopes, hoisting, and language fundamentals
+- chapter_07_Arrays: array methods, transformation, and iteration
+- chapter_08_Functions: functions, closures, arrow functions, and higher-order functions
+- chapter_09_Strings: string manipulation, searching, and transformation
+- chapter_10_Objects: object creation, destructuring, spread, and getter/setter examples
+- chapter_13_Promise: promises, async patterns, and practical examples
+- Chapter_16_Typescript_Basics: TypeScript syntax, types, and basic examples
+- Chapter_17_OOPS: classes, objects, encapsulation, inheritance, and polymorphism
+- Chapter_15_PlaywrightBasics: Playwright-based automation examples
+- Programming_practice: coding exercises and interview-style problems
 
-## About
+## Getting started
 
-This repository contains learning examples for JavaScript and Playwright organized by chapter. Each chapter focuses on a particular language topic (strings, arrays, functions, objects, etc.) and includes small example scripts you can run with Node.js.
-
-Getting started:
-
-- Install Node.js (v14+ recommended).
-- Run examples with:
-
-```bash
-node chapter_01_basics/Basics.js
-```
-
-Contributions: feel free to open issues or add examples.
-
-## Installation
-
-1. Install Node.js (v14+ recommended): https://nodejs.org/
+1. Install Node.js (recommended: v18 or newer)
 2. Clone the repository:
 
 ```bash
@@ -34,30 +34,27 @@ git clone https://github.com/JapinderK/PlaywrightLearning.git
 cd PlaywrightLearning
 ```
 
-## Usage
-
-- Run a single example with Node.js:
+3. Run any example with Node.js:
 
 ```bash
 node chapter_01_basics/Basics.js
 ```
 
-- Run multiple examples by navigating into a chapter and running files.
+4. For TypeScript examples, compile with TypeScript:
 
-## Chapter Highlights
+```bash
+tsc
+```
 
-- `chapter_01_basics`: introductory code snippets and Playwright quick-starts.
-- `chapter_02_Javascript_Concepts`: hoisting, scoping, closures, and core JS behavior.
-- `chapter_07_Arrays`: array manipulation, sorting, and common patterns.
-- `chapter_09_Strings`: string operations, palindrome and anagram examples.
-- `chapter_10_Objects`: object usage, spread/rest, and reference vs primitive demos.
-- `chapter_13_Promise`: Promise handling, async flow control, and common Promise utilities.
+## Notes
+
+- Some files may generate output folders such as test-results during Playwright runs.
+- The repository is primarily for learning and practice purposes.
 
 ## Contributing
 
-- Fork the repo and open a pull request with a clear description.
-- Keep examples small, focused, and well-commented.
+Feel free to add examples, improve explanations, or fix issues by opening a pull request.
 
 ## License
 
-This repository is provided as-is for learning purposes. No license specified.
+This repository is provided as-is for learning purposes.
