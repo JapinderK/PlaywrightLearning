@@ -10,6 +10,19 @@ let username1: string;
 let userID: number;
 
 //Function annotation
-function user(name: string): string{
+function greet(name: string): string{
     return `Hello, ${name}`;
+}
+
+//Arrow function annotation
+const multiply = (a:number,b:number):number => a*b;
+
+//object annotations
+let user:{name:string; age:number}={
+    name:"John",
+    age:38
+}
+//never: function never returns anything
+function throwError(message:string):never{
+    throw new Error(message);
 }

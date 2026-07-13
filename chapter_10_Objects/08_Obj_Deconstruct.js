@@ -2,7 +2,9 @@ const user = { name1: "John", age: 10, city: "NYC" }
 
 //Basic Destructuring
 
+// Destructuring is a JavaScript/TypeScript feature that lets you extract values from arrays or properties from objects and assign them to variables in a concise way.
 
+// Instead of writing multiple assignments, you can "unpack" the values in a single statement.
 
 
 

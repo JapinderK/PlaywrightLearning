@@ -46,6 +46,21 @@ node chapter_01_basics/Basics.js
 tsc
 ```
 
+## Running Playwright tests
+
+1. Install Playwright and its browsers (if not already installed):
+
+```bash
+npm install
+npx playwright install
+```
+
+2. Run tests:
+
+```bash
+npx playwright test
+```
+
 ## Notes
 
 - Some files may generate output folders such as test-results during Playwright runs.
